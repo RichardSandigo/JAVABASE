@@ -22,7 +22,18 @@ public class CalculadoraSimple {
         int multiplicacion = a * b;
         System.out.println("Multiplicacion: " + multiplicacion);
 
+        
+        // División con validación
+        if (b != 0) {
+            int division = a / b;
+            System.out.println("División: " + division);
+        } else {
+            System.out.println("Error: no se puede dividir entre 0.");
+        }
+
         scanner.close();
+
+
 
         
     }
