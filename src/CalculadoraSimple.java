@@ -18,6 +18,10 @@ public class CalculadoraSimple {
         int resta = a - b;
         System.out.println("Resta: " + resta);
 
+        //Multiplicacion
+        int multiplicacion = a * b;
+        System.out.println("Multiplicacion: " + multiplicacion);
+
         
         // División con validación
         if (b != 0) {
